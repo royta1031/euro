@@ -1,0 +1,45 @@
+{
+  "name": "Test_Eurofins",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "BalaReva.Excel.Activities": "[2019.4.0]",
+    "BalaReva.PowerPoint.Activities": "[3.0.0]",
+    "ExceltoPDFConversion.Activities": "[1.1.7]",
+    "ExceltoPDFConversionActivities": "[1.1.6]",
+    "FestSystems.PDFtoExcel.Activities": "[1.0.1]",
+    "PDF_Activities": "[1.0.2]",
+    "PDFsharp": "[1.51.5185-beta]",
+    "UiPath.Excel.Activities": "[2.8.3-beta.890325]",
+    "UiPath.Mail.Activities": "[1.8.3-beta.889642]",
+    "UiPath.PDF.Activities": "[3.2.2-preview]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.UIAutomation.Activities": "[20.6.0-preview]",
+    "UiPathTeam.PDF.Extensions.Activities": "[2.4.0]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
